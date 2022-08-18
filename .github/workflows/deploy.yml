@@ -21,10 +21,10 @@ jobs:
         dotnet-version: 6.0.400
         
     - name: Pack
-      #run: dotnet pack TestLib --configuration Release -o finalpackage --no-build
-      
       run: dotnet pack --configuration Release
       
     - name: Add source
       run: dotnet nuget add source --username vvalusa --password {{ seecrets.github_token }}  --store-password-in-clear-text --name github "https://nuget.pkg.github.com/vvalusa/index.json"
-
+    
+    - name: Push
+      run: dotnet nuget push "bin/Release/dotnet-app.1.0.0.nupkg"  --api-key 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 --source "github"
