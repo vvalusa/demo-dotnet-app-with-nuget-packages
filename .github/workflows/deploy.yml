@@ -28,16 +28,3 @@ jobs:
     - name: Add source
       run: dotnet nuget add source --username vvalusa --password {{ seecrets.github_token }}  --store-password-in-clear-text --name github "https://nuget.pkg.github.com/vvalusa/index.json"
 
-deploy:
-  needs: build
-  - name: Deploy Packages
-  - runs-on: windows-latest # using windows agent due to nuget can't sign on linux yet
-  
-  steps:
-    - name: Download Package artifact
-      uses: actions/download-artifact@master
-      with:
-        name: nupkg
-    
-    #
-
