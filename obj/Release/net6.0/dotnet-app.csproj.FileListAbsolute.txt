@@ -1,0 +1,15 @@
+/Users/vidyadharivalusa/Documents/workspace/dotnet-app/bin/Release/net6.0/dotnet-app
+/Users/vidyadharivalusa/Documents/workspace/dotnet-app/bin/Release/net6.0/dotnet-app.deps.json
+/Users/vidyadharivalusa/Documents/workspace/dotnet-app/bin/Release/net6.0/dotnet-app.runtimeconfig.json
+/Users/vidyadharivalusa/Documents/workspace/dotnet-app/bin/Release/net6.0/dotnet-app.dll
+/Users/vidyadharivalusa/Documents/workspace/dotnet-app/bin/Release/net6.0/dotnet-app.pdb
+/Users/vidyadharivalusa/Documents/workspace/dotnet-app/obj/Release/net6.0/dotnet-app.csproj.AssemblyReference.cache
+/Users/vidyadharivalusa/Documents/workspace/dotnet-app/obj/Release/net6.0/dotnet-app.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vidyadharivalusa/Documents/workspace/dotnet-app/obj/Release/net6.0/dotnet-app.AssemblyInfoInputs.cache
+/Users/vidyadharivalusa/Documents/workspace/dotnet-app/obj/Release/net6.0/dotnet-app.AssemblyInfo.cs
+/Users/vidyadharivalusa/Documents/workspace/dotnet-app/obj/Release/net6.0/dotnet-app.csproj.CoreCompileInputs.cache
+/Users/vidyadharivalusa/Documents/workspace/dotnet-app/obj/Release/net6.0/dotnet-app.dll
+/Users/vidyadharivalusa/Documents/workspace/dotnet-app/obj/Release/net6.0/refint/dotnet-app.dll
+/Users/vidyadharivalusa/Documents/workspace/dotnet-app/obj/Release/net6.0/dotnet-app.pdb
+/Users/vidyadharivalusa/Documents/workspace/dotnet-app/obj/Release/net6.0/dotnet-app.genruntimeconfig.cache
+/Users/vidyadharivalusa/Documents/workspace/dotnet-app/obj/Release/net6.0/ref/dotnet-app.dll
