@@ -25,9 +25,20 @@ jobs:
       
       run: dotnet pack --configuration Release
 
-    - name: Publish artifact
-      uses: actions/upload-artifact@main
-      with:
-        name: nupkg
-        path: finalpackage
+deploy:
+  needs: build
+  - name: Deploy Packages
+  - runs-on: windows-latest # using windows agent due to nuget can't sign on linux yet
+  
+  steps:
+    - name: Download Package artifact
+      uses: actions/download-artifact@master
+      with:
+        name: nupkg
+    
+    #- name: Publish artifact
+     #uses: actions/upload-artifact@main
+     # with:
+      #  name: nupkg
+        #path: finalpackage
 
