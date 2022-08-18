@@ -24,6 +24,9 @@ jobs:
       #run: dotnet pack TestLib --configuration Release -o finalpackage --no-build
       
       run: dotnet pack --configuration Release
+      
+    - name: Add source
+      run: dotnet nuget add source --username vvalusa --password {{ seecrets.github_token }}  --store-password-in-clear-text --name github "https://nuget.pkg.github.com/vvalusa/index.json"
 
 deploy:
   needs: build
@@ -36,9 +39,5 @@ deploy:
       with:
         name: nupkg
     
-    #- name: Publish artifact
-     #uses: actions/upload-artifact@main
-     # with:
-      #  name: nupkg
-        #path: finalpackage
+    #
 
